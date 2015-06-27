@@ -152,12 +152,12 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-color: $secondaryHeaderBackground;
 }
 
 .masthead {
   padding: 20px 0;
-
+  background-color: $secondaryHeaderBackground;
+  
   @include mobile {
     text-align: center;
   }
@@ -275,10 +275,10 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $secondaryHeaderBackground;
 }
 
 footer {
+  background-color: $secondaryHeaderBackground;	
   padding: 20px 0;
   text-align: center;
 }
